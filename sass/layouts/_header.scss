@@ -12,4 +12,8 @@
   .container__header {
     display: flex;
     align-items: center;
+    
+    @media screen and (min-width: 480px){
+      justify-content: space-between;
+    }
   }

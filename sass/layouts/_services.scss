@@ -26,6 +26,32 @@
     max-width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
+
+    @media screen and (max-width:767px) {
+      font-size: 26px;
+      line-height: 1.6;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      
+    }
+
+    @media screen and (max-width:1199px) {
+      width: 360px;
+      height: 84px;
+      left: 204px;
+      top: 198px;
+
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.6;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      word-break:break-all;
+    }
   }
 
 
